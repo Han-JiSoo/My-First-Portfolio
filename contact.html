@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="css/common.css">
+        <!-- font -->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" />
+        <script src="js/main.js" defer></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery.bxslider.min.js"></script>
+        <title>안녕하세요 한지수입니다.</title>
+    </head>
+    <body>
+        <!-- header -->
+        <header class="header">
+            <div class="header_name">
+                <a href="./index.html">
+                    <img src="./images/logo.svg" alt="이름">
+                </a>
+            </div>
+            <button class="header_toggle-menu"
+            aria-controls="header_menu"
+            aria-expanded="false">
+            </button>
+            <nav class="header_navigation">
+                <ul class="header_menu" id="header_menu" data-visible="false">
+                    <li>
+                        <a href="index.html" class="header_link">PROFILE</a>
+                    </li>
+                    <li>
+                        <a href="projects.html" class="header_link">PROJECTS</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="header_link header_contact">
+                            CONTACT 
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        
+        <main>
+            <section class="contact">
+                <h1 class="contact_title"><span>CONTACT</span></h1>
+                <div class="contact_content">
+                    <span class="contact_topBorder"></span>
+                    <p class="contact_introduce">
+                        저의 깃허브, 메일, 전화번호입니다.
+                    </p>
+                </div>
+            </section>
+            
+            <section class="card">
+              <div class="icon_type github">
+                <img src="images/icon-github.png" alt="github" />
+                <h1>깃허브</h1>
+                <p>GITHUB
+                   <a href="https://github.com/Han-JiSoo" target="_blank">
+                    <br />https://github.com/Han-JiSoo</a> 
+                </p>
+                <button onclick="window.open('https://github.com/Han-JiSoo')">이동</button>
+              </div>
+              <div class="icon_type mail">
+                <img src="images/icon-mail.png" alt="mail" />
+                <h1>메일</h1>
+                <p>E-mail 
+                    <a href="mailto:jshan7837@hotmail.com" target="_blank">
+                        <br />jshan7837@hotmail.com</a> 
+                </p>
+                <button onclick="location.href='mailto:jshan7837@hotmail.com'">이동</button>
+              </div>
+      
+              <div class="icon_type phone">
+                <img src="images/call.png" alt="전화번호" />
+                <h1>전화번호</h1>
+                <p>PHONE
+                    <a><br />
+                        010-XXXX-XXXX</a>
+                </p>
+              </div>
+            </section>
+          </main>
+          <!-- footer -->
+        <footer class="footer">
+            <div class="footer_logo"><img src="./images/logo.svg" alt="" /></div>
+            <ul class="footer_menu">
+                <li><a href="index.html" class="footer_link">PROFILE</a></li>
+                <li><a href="projects.html" class="footer_link">PROJECTS</a></li>
+            </ul>
+            <address class="footer_address">
+                <span>주소</span> : 서울시 마포구 XX동<br/>&emsp;&emsp;&ensp;
+                                    XX아파트 XXX동 XXX호 <br />
+                <span>전화번호</span> : 010-XXXX-XXXX <br />
+                <span>메일</span> : jshan7837@hotmail.com <br />
+            </address>
+        </footer>
+        <button onclick="moveToTop()" class="btn-moveTop"></button>
+    </body>
+</html>

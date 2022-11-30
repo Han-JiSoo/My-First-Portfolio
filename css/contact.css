@@ -1,0 +1,158 @@
+.contact {
+  background-image: url("../images/bg-pattern-home-2.svg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+  padding-inline: 1.625rem;
+  padding-block: 5rem 12.5rem;
+}
+
+.contact_title {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  margin: 0 auto;
+  max-width: 14.375rem;
+  -webkit-padding-after: 1.125rem;
+          padding-block-end: 1.125rem;
+}
+
+.contact_title span {
+  color: #79c8c7;
+}
+
+.contact_introduce {
+  font-size: 0.9375rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 43.75rem) {
+  
+  .contact {
+    padding-inline: 4.5rem;
+    padding-block: 6.875rem 16.25rem;
+  }
+  
+  .contact_title {
+    font-size: 2rem;
+    line-height: 3.5rem;
+    max-width: 21.875rem;
+    -webkit-padding-after: 1.5rem;
+            padding-block-end: 1.5rem;
+  }
+}
+@media screen and (min-width: 64rem) {
+  
+  .contact {
+    padding-inline: 10.3125rem;
+    background-image: url("../images/bg-pattern-home-2.svg");
+    background-repeat: no-repeat;
+    background-position: top 3rem left 10.25rem;
+    padding-block: 9rem 3.25rem;
+    display: flex;
+  }
+
+  .contact_title {
+    font-size: 3.55rem;
+    line-height: 11.25rem;
+    min-width: 70%;
+    text-align: left;
+    -webkit-padding-end: 3.125rem;
+            padding-inline-end: 3.125rem;
+  }
+  
+  .contact_topBorder {
+    display: block;
+    width: 3.3125rem;
+    height: 0.25rem;
+    background-color: #f67e7e;
+  }
+  
+  .contact_introduce {
+    font-size: 1.125rem;
+    text-align: left;
+    -webkit-margin-before: 5rem;
+            margin-block-start: 5rem;          
+  }
+
+  
+}
+
+.github {
+  color:hsl(31, 77%, 52%);
+  background-color: hsl(31, 77%, 52%);
+}
+
+.mail {
+  color: hsl(184, 100%, 22%);
+  background-color: hsl(184, 100%, 22%);
+}
+.phone {
+  color: hsl(179, 100%, 13%);
+  background-color: hsl(179, 100%, 13%);
+}
+
+.card {
+  margin: 0 auto;
+  max-width: 80%;
+  border-radius: 8px;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  text-align: left;
+  padding-block: 2.125rem 7rem;
+}
+
+.icon_type{
+  padding: 3rem;
+}
+.icon_type > img {
+  margin-bottom: 2rem;
+}
+.icon_type > h1 {
+  margin-bottom: 1.5rem;
+  font: 700 2.5rem "Livvic", sans-serif;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+}
+.icon_type > p {
+  margin-bottom: 0.8rem;
+  font: 900 1.1rem "Livvic", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.icon_type > button {
+  width: 146px;
+  height: 48px;
+  font: 400 0.92rem "Livvic", sans-serif;
+  color: inherit;
+  background-color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  border-radius: 24px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.icon_type > button:hover {
+  color: varhsl(0, 0%, 95%);
+  background-color: inherit;
+}
+
+@media only screen and (min-width: 64rem) {
+.card {
+    max-width: 80%;
+    grid-template-rows: unset;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+  }
+
+  .icon_type > p {
+    margin-right: 0.4rem;
+    margin-bottom: 5.25rem;
+  }
+  
+}
+
+
